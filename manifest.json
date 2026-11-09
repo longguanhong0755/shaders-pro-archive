@@ -6,7 +6,7 @@
  "license": "MIT (runtime and component definitions)",
  "collections": 220,
  "presets": 1000,
- "controls": 10461,
+ "controls": 10629,
  "files": {
   "catalog": "catalog.json",
   "definitions": "data/<preset-id>.json",
@@ -18,7 +18,7 @@
   "Only publicly reachable catalog, preview thumbnails, component definitions and referenced assets were captured.",
   "Definitions are already decoded into the component tree consumed by the MIT runtime (createShader).",
   "Each data file carries its editable controls with stable target ids and the authored defaults.",
-  "Logo/SDF controls that require a generated SDF upload are intentionally omitted; the authored logo is preserved.",
-  "Cursor/map/auto-animate driven props are preserved as authored and are not exposed as scalar controls."
+  "Cursor/map/auto-animate driven props are preserved as authored and are not exposed as scalar controls.",
+  "Logo controls are included: the companion UI renders an SVG to a public SDF endpoint and updates shapeSdfUrl plus the authored shape JSON."
  ]
 }
